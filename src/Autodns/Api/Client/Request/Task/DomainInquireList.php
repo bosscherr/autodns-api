@@ -20,9 +20,13 @@ class DomainInquireList implements Task
      * @var string[]
      */
     private $view;
-
-    public function asArray()
-    {
+    
+    /**
+     * @var string[]
+     */
+    private $order;
+    
+    public function asArray() {
         $array = array('code' => '0105');
 
         if ($this->view) {
@@ -33,6 +37,9 @@ class DomainInquireList implements Task
             $array['key'] = $this->keys;
         }
 
+        if ($this->order) {
+          $array['order'] = $this->order;
+        }
 
         if ($this->query) {
             $array['where'] = $this->query->asArray();
@@ -70,4 +77,15 @@ class DomainInquireList implements Task
         $this->query = $query;
         return $this;
     }
+
+    /**
+     * @param $order
+     * @return $this
+     */
+    public function withOrder(array $order)
+    {
+      $this->order = $order;
+      return $this;
+    }
+
 }
