@@ -11,7 +11,7 @@ class DomainRestoreInquire extends InquireList
     public function asArray()
     {
         $array = parent::asArray();
-        $array = array('code' => '0105005');
+        $array['code'] = '0105005';
         return $array;
     }
 
