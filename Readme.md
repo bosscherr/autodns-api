@@ -83,6 +83,8 @@ Autodns tasks
  * ~~Domain Inquire List (0105)~~
  * Domain Status (0102002)
  * Domain Status List (0102002)
+ * ~~Domain Restore (0101005)~~
+ * ~~Domain Restore Inquire List (0105005)~~
 
 ### Cancelation
 
@@ -91,7 +93,7 @@ Autodns tasks
  * Cancelation Delete (0103103)
  * Cancelation Delete (0103103)
  * Cancelation Inquire (0103104)
- * Cancelation Inquire List (0103104)
+ * ~~Cancelation Inquire List (0103104)~~
 
 ### Domaintransfer
 
@@ -131,9 +133,9 @@ Autodns tasks
 ### Handle
 
  * ~~Handle Create (0301)~~
- * Handle Update (0302)
+ * ~~Handle Update (0302)~~
  * Handle Delete (0303)
- * Handle Inquire (0304)
+ * ~~Handle Inquire (0304)~~
 
 ### Redirect
 
