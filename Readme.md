@@ -74,11 +74,11 @@ Autodns tasks
 
 ### Domain
 
- * Domain Create (0101)
- * Domain Update (0102)
+ * ~~Domain Create (0101)~~
+ * ~~Domain Update (0102)~~
  * Domain Renew (0101003)
  * Domain Ownerchange (0104010)
- * Domain Delete (0103)
+ * ~~Domain Delete (0103)~~
  * ~~Domain Inquire (0105)~~
  * ~~Domain Inquire List (0105)~~
  * Domain Status (0102002)
